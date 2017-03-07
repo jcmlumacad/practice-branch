@@ -28,4 +28,7 @@ class Feature
 $feature = new Feature();
 echo $feature->featureOne();
 echo $feature->featureTwo();
-echo $featureThree();
+echo $feature->featureThree();
+echo $feature->featureFour();
+echo '<br>Class Feature Methods:<br>';
+echo json_encode(get_class_methods($feature), JSON_PRETTY_PRINT);
