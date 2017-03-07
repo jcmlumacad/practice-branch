@@ -2,18 +2,13 @@
 
 class Feature
 {
-    $message = 'Done';
-
-    public function __construct()
-    {
-        parent::__construct();
-    }
+    private $message = 'Done';
 
     public function featureOne()
     {
-        return $message;
+        return $this->message;
     }
 }
 
 $feature = new Feature();
-$feature->featureOne();
+echo $feature->featureOne();
