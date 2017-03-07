@@ -14,3 +14,6 @@ class Feature
         return $message;
     }
 }
+
+$feature = new Feature();
+$feature->featureOne();
