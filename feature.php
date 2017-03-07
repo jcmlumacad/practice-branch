@@ -2,6 +2,8 @@
 
 class Feature
 {
+    $message = 'Done';
+
     public function __construct()
     {
         parent::__construct();
@@ -9,6 +11,6 @@ class Feature
 
     public function featureOne()
     {
-        return 'Done';
+        return $message;
     }
 }
