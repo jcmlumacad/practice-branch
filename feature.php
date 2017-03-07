@@ -23,3 +23,4 @@ class Feature
 $feature = new Feature();
 echo $feature->featureOne();
 echo $feature->featureTwo();
+echo $featureThree();
