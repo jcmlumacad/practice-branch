@@ -18,6 +18,11 @@ class Feature
     {
         return 'Feature Three';
     }
+
+    public function featureFour()
+    {
+        return 'Feature Four';
+    }
 }
 
 $feature = new Feature();
