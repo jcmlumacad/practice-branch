@@ -13,6 +13,11 @@ class Feature
     {
         return 'Feature Two';
     }
+
+    public function featureThree()
+    {
+        return 'Feature Three';
+    }
 }
 
 $feature = new Feature();
